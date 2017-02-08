@@ -2,7 +2,7 @@
 
 class FreeLunchLabs_MailGun_Model_Mailgun extends Mage_Core_Model_Abstract {
 
-    public $apiUrl = "https://api.mailgun.net/v2/";
+    public $apiUrl = "https://api.mailgun.net/v3/";
 
     public function mailgunRequest($type, $domain, $apiKey, $data, $method = Zend_Http_Client::GET, $uriOveride = false, $files = null) {
      
